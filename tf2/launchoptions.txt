@@ -1,0 +1,1 @@
++exec synth.cfg -refresh 144 -high -noipx -nojoy -novid -noforcemaccel -noforcemspd -threads 4
