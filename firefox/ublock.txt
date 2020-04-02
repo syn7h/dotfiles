@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1585338257386,
+  "timeStamp": 1585838335254,
   "version": "1.25.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -9,8 +9,8 @@
     "collapseBlocked": true,
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
-    "dynamicFilteringEnabled": true,
-    "externalLists": "",
+    "dynamicFilteringEnabled": false,
+    "externalLists": "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt\nhttps://hosts-file.net/.%5Cad_servers.txt",
     "firewallPaneMinimized": true,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
@@ -19,7 +19,7 @@
     "prefetchingDisabled": true,
     "requestLogMaxEntries": 1000,
     "showIconBadge": false,
-    "tooltipsDisabled": true,
+    "tooltipsDisabled": false,
     "webrtcIPAddressHidden": true
   },
   "selectedFilterLists": [
@@ -47,7 +47,6 @@
     "fanboy-social",
     "ublock-annoyances",
     "dpollock-0",
-    "hphosts",
     "mvps-0",
     "plowe-0",
     "ara-0",
@@ -83,7 +82,9 @@
     "SWE-1",
     "THA-0",
     "TUR-0",
-    "VIE-1"
+    "VIE-1",
+    "https://easylist-downloads.adblockplus.org/antiadblockfilters.txt",
+    "https://hosts-file.net/.%5Cad_servers.txt"
   ],
   "hiddenSettings": {
     "allowGenericProceduralFilters": false,
@@ -127,6 +128,6 @@
   "netWhitelist": "",
   "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
-  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-remote-fonts: * true\nno-csp-reports: * true",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
   "userFilters": ""
 }
