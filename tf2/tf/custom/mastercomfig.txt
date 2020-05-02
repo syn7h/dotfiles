@@ -1,4 +1,0 @@
-high preset
-no tutorial
-null-cancelling movement
-flat mouse
